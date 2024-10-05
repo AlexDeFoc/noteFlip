@@ -25,7 +25,12 @@ endif()
 # End - Release mode
 
 add_executable(${PROJECT_NAME}
-    src/main.c
+    src/main.cpp
+    src/file.cpp
+    src/print.cpp
+    src/deck.cpp
+    src/card.cpp
+    src/phase.cpp
 )
 
 target_include_directories(${PROJECT_NAME}

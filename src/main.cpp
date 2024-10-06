@@ -30,10 +30,10 @@ int main() {
     std::ifstream card_file;
 
     std::string filepath;
-    const std::string deck_list_path = "../decks.txt";
-    const std::string deck_dir = "../deck/";
+    const std::string deck_list_path = "./decks.txt";
+    const std::string deck_dir = "./deck/"; // needs to be ../ instead of ./ for development
     std::string deck_name;
-    const std::string card_dir = "../card/";
+    const std::string card_dir = "./card/";
     int card_index;
 
     std::string line;

@@ -66,7 +66,12 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 
-# Build
+# Build & misc stuff
 build/
+card/
+deck/
+decks.txt
 
 [Bb][Uu][Ii][Ll][Dd]
+[Dd][Ee][Cc][Kk]
+[Cc][Aa][Rr][Dd]

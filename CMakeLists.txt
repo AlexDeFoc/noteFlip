@@ -10,8 +10,8 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 # End - C++ standard
 
 # Start - Release mode
-option(USE_RELEASE "Builds project in release mode" OFF)
-option(USE_DEBUG "Builds project in debug mode" ON)
+option(USE_RELEASE "Builds project in release mode" ON)
+option(USE_DEBUG "Builds project in debug mode" OFF)
 
 if (USE_RELEASE AND USE_DEBUG)
     message(FATAL_ERROR "Both release and debug modes are selected. Please enable only one in the CMakeLists.txt file.")

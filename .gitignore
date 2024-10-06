@@ -71,7 +71,7 @@ build/
 card/
 deck/
 decks.txt
-.zip
+*.zip
 
 [Bb][Uu][Ii][Ll][Dd]
 [Dd][Ee][Cc][Kk]

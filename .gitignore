@@ -72,7 +72,9 @@ card/
 deck/
 decks.txt
 *.zip
+.cache/
 
 [Bb][Uu][Ii][Ll][Dd]
 [Dd][Ee][Cc][Kk]
 [Cc][Aa][Rr][Dd]
+[Cc][Aa][Cc][Hh][Ee]

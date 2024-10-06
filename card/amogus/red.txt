@@ -1,6 +1,6 @@
 @title
-the actual imposter
+the main char
 @front
-who?
+main char 
 @back
-there!
+nice

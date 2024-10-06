@@ -99,7 +99,7 @@ void selectCardPhase(File& file, int& user_input, const std::string& deck_filepa
     user_input = ui;
 }
 
-void readSelectedCard(File& file, const std::string& card_filepath, std::vector<std::string>& card) {
+void readSelectedCard(File& file, const std::string& card_filepath, std::vector<std::string>& card, std::string& user_input_string) {
     std::vector<std::string> card_file;
 
     // Open & load & close selected deck
@@ -119,7 +119,13 @@ void readSelectedCard(File& file, const std::string& card_filepath, std::vector<
     // Print
     clearScreen();
 
-    for (const auto& entry : card) {
-        std::cout << entry << std::endl;
+    for (int i = 0; i < card.size(); i++) {
+        std::cout << card[i] << '\n';
     }
+
+    greenText();
+    std::cout << '\n' << "<a> <s> <d>" << '\n';
+    resetTextColor();
+
+    // Get user input
 }

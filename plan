@@ -2,6 +2,7 @@
 2. Print card phase:
 - Title
 - Front
+- Back
 - "Previous, Reveal, Next | <a> <s> <d>"
 - User Input
 

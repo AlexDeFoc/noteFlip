@@ -9,4 +9,4 @@
 
 void selectDeckPhase(File& file, int& user_input, std::vector<std::string>& decks_list);
 void selectCardPhase(File& file, int& user_input, const std::string& deck_filepath, std::vector<std::string>& selected_deck);
-void readSelectedCard(File& file, const std::string& card_filepath, std::vector<std::string>& card);
+void readSelectedCard(File& file, const std::string& card_filepath, std::vector<std::string>& card, std::string& user_input_string);
